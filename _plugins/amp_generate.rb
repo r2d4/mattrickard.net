@@ -1,4 +1,5 @@
-  # Defines the base class of AMP posts
+module Jekyll
+# Defines the base class of AMP posts
   class AmpPost < Page
     def initialize(site, base, dir, post)
       @site = site
